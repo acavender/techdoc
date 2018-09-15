@@ -20,7 +20,6 @@ code {
     font-weight: bold;
 }
 
-
 #navbar {
     height: 50%;
     position: sticky;
@@ -53,4 +52,36 @@ code {
 #main-doc {
     width: 75%;
 }
+
+/* For smaller screens */
+
+@media (max-width: 768px) {
+
+    body {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #navbar {
+        background-color: white;
+        border-bottom: 1px solid darkblue;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+        padding-bottom: 20px;
+        position: sticky;
+        width: 100%;
+    }
+
+    .nav-item {
+        width: 100%;
+    }
+
+    #main-doc {
+        width: 100%;
+    }
+
+}
+
 
