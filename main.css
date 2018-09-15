@@ -1,3 +1,5 @@
+/* Common styles */
+
 html {
     background: rgb(153, 172, 190);
 }
@@ -13,16 +15,42 @@ body {
     padding: 20px;
 }
 
+code {
+    color: black;
+    font-weight: bold;
+}
+
 
 #navbar {
+    height: 50%;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
     width: 25%;
+}
+
+.nav-item {
+    background: rgb(153, 172, 190);
+    border: 1px solid darkblue;
+    color: white;
+    margin: 3px;
+    padding: 5px;
+    width: 75%;
+}
+
+.nav-item a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-item a:visited {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 #main-doc {
     width: 75%;
 }
 
-code {
-    color: black;
-    font-weight: bold;
-}
