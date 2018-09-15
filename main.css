@@ -1,0 +1,28 @@
+html {
+    background: rgb(153, 172, 190);
+}
+
+body {
+    background: white;
+    border: 3px solid darkblue;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: space-between;
+    margin: 2%;
+    padding: 20px;
+}
+
+
+#navbar {
+    width: 25%;
+}
+
+#main-doc {
+    width: 75%;
+}
+
+code {
+    color: black;
+    font-weight: bold;
+}
