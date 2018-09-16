@@ -28,14 +28,6 @@ code {
     width: 25%;
 }
 
-#navbar {
-    /* height: 50%; */
-    /* position: sticky;
-    position: -webkit-sticky;
-    top: 0; */
-    /* width: 25%; */
-}
-
 .nav-item {
     background: rgb(153, 172, 190);
     border: 1px solid darkblue;
