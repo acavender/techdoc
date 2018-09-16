@@ -20,12 +20,17 @@ code {
     font-weight: bold;
 }
 
-#navbar {
+.navigation {
     height: 50%;
+    width: 25%;
+}
+
+#navbar {
+    /* height: 50%; */
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    width: 25%;
+    /* width: 25%; */
 }
 
 .nav-item {
@@ -60,6 +65,10 @@ code {
     body {
         flex-direction: column;
         justify-content: space-between;
+    }
+
+    .navigation {
+        width: 100%;
     }
 
     #navbar {
