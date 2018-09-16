@@ -9,100 +9,104 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <nav id="navbar">
-        <header><h2>About Markdown</h2></header>
-        <div class="nav-item">
-            <a href="#What_is_Markdown?" class="nav-link">What is Markdown?</a>
-        </div>
-        <div class="nav-item">
-            <a href="#Why_Use_Markdown?" class="nav-link">Why Use Markdown?</a>
-        </div>
-        <div class="nav-item">
-            <a href="#Is_Markdown_Difficult_to_Learn?" class="nav-link">Is Markdown Difficult to Learn?</a>
-        </div>
-        <div class="nav-item">
-            <a href="#Creating_Lists_in_Markdown" class="nav-link">Creating Lists in Markdown</a>
-        </div>
-        <div class="nav-item">
-            <a href="#Creating_Links_in_Markdown" class="nav-link">Creating Links in Markdown</a>
-        </div>
-        <div class="nav-item">
-            <a href="#Styling-Text in Markdown" class="nav-link">Styling Text in Markdown</a>
-        </div>
-        <div class="nav-item">
-            <a href="#Code_in_Markdown" class="nav-link">Code in Markdown</a>
-        </div>
-    </nav>
-    <main id="main-doc">
-        <section class="main-section" id="What_is_Markdown?">
-            <h2>What is Markdown?</h2>
-            <p>Markdown is a simple markup language that allows you to focus your time and attention on your content and its structure, without having to worry about formatting. Once you've finished creating your content, you can use a tool like <a href="https://pandoc.org/">Pandoc</a> to convert it to whatever format you need (e.g., HTML, PDF, DOCX, EPUB).</p>
-        </section>
-        <section class="main-section" id="Why_Use_Markdown?">
-            <h2>Why Use Markdown?</h2>
-            <p>Markdown has some real advantages:
-                <ul>
-                    <li>It's lightweight.</li>
-                    <li>It's plain text, so it can be written and opened on any device running any operating system.</li>
-                    <li>Converting from Markdown text to particular file formats &mdash; e.g., DOCX, HTML, PDF &mdash; is a simple matter.</li>
-                </ul>
-            </p>
-            <p>So, if you're someone who frequently writes text that needs to be published to a number of different formats, you'll likely find Markdown incredibly useful. Write your text once, then export it to whatever file formats you need.</p>
-            <p>On the other hand, if you frequently need to create documents with highly complex visual formatting, and you don't often need to output your work to multiple file formats, Markdown may not be the best tool for your purposes.</p>
-        </section>
-        <section class="main-section" id="Is_Markdown_Difficult_to_Learn?">
-            <h2>Is Markdown Difficult to Learn?</h2>
-            <p>Not only is Markdown not difficult to learn, it's really quite simple. In fact, you may find you know a good bit of the syntax already. Have you ever enclosed a word in asterisks in a Facebook post because italics aren't available?</p>
-            <p>That's exactly how you create italics in Markdown. When you write <code class="codetext">*italics*</code> in your Markdown text, it will output as <em>italics</em>.</p>
-        </section>
-        <section class="main-section" id="Creating_Lists_in_Markdown">
-            <h2>Creating Lists in Markdown</h2>
-            <p>Likely you already know how to make lists, too. To create an unordered list that looks like this:
-                <ul>
-                    <li>Item 1</li>
-                    <li>Item 2</li>
-                    <li>Item 3</li>
-                </ul>
-            </p>
-            <p>You need only write:</p>
-            <pre><code class="codetext">
-                * Item 1
-                * Item 2
-                * Item 3
-            </code></pre>
-            <p>Ordered lists are just as easy. To get:
-                <ol>
-                    <li>Item</li>
-                    <li>Item</li>
-                    <li>Item</li>
-                </ol>
-            </p>
-            <p>Just write:</p>
-            <pre><code class="codetext">
-                1. Item
-                2. Item
-                3. Item
-            </code></pre>
-        </section>
-        <section class="main-section" id="Creating_Links_in_Markdown">
-            <h2>Creating Links in Markdown</h2>
-            <p>Links are easy to create, too. Simply enclose the text you want to be clickable in square brackets, followed immediately by the link in parentheses, like so:</p>
-            <p>
-                <code class="codetext">[clickable text](URL to load on click)</code>
-            </p>
-        </section>
-        <section class="main-section" id="Styling-Text in Markdown">
-            <h2>Styling Text in Markdown</h2>
-            <p>We already saw one example of how to style text (styling it as italic) <a href="#Is_Markdown_Difficult_to_Learn?">above</a>. Other styling options are also pretty simple. For example, to make text bold, just enclose it in double asterisks: <code class="codetext">**This text is bold.**</code></p>
-            <p>Markdown understands HTML, too, so you could make your link by writing:<code class="codetext">&lta href="URL to load"&gtClickable text&lt/a&gt</code>.</p> 
-             
-            <p>But links are so easy to create in Markdown that there's no need to use the HTML in that instance. It's included here only as an example.</p>
-        </section>
-        <section class="main-section" id="Code_in_Markdown">
-            <h2>Code in Markdown</h2>
-            <p>Adding code to a markdown document is also fairly simple, and is explained at <a href="https://daringfireball.net/projects/markdown/syntax#precode"><em>Daring Fireball</em></a>.</p>
-            <p>Following the instructions there, it's easy to provide information about this section of the page you're reading: <code class="codetext">&ltsection class="main-section" id="Code_in_Markdown"&gt</code>.</p> 
-        </section>
-    </main>
+    <div class="navigation">
+        <nav id="navbar">
+            <header><h2>About Markdown</h2></header>
+            <div class="nav-item">
+                <a href="#What_is_Markdown?" class="nav-link">What is Markdown?</a>
+            </div>
+            <div class="nav-item">
+                <a href="#Why_Use_Markdown?" class="nav-link">Why Use Markdown?</a>
+            </div>
+            <div class="nav-item">
+                <a href="#Is_Markdown_Difficult_to_Learn?" class="nav-link">Is Markdown Difficult to Learn?</a>
+            </div>
+            <div class="nav-item">
+                <a href="#Creating_Lists_in_Markdown" class="nav-link">Creating Lists in Markdown</a>
+            </div>
+            <div class="nav-item">
+                <a href="#Creating_Links_in_Markdown" class="nav-link">Creating Links in Markdown</a>
+            </div>
+            <div class="nav-item">
+                <a href="#Styling-Text in Markdown" class="nav-link">Styling Text in Markdown</a>
+            </div>
+            <div class="nav-item">
+                <a href="#Code_in_Markdown" class="nav-link">Code in Markdown</a>
+            </div>
+        </nav>
+    </div>
+    <div class="content">
+        <main id="main-doc">
+            <section class="main-section" id="What_is_Markdown?">
+                <h2>What is Markdown?</h2>
+                <p>Markdown is a simple markup language that allows you to focus your time and attention on your content and its structure, without having to worry about formatting. Once you've finished creating your content, you can use a tool like <a href="https://pandoc.org/">Pandoc</a> to convert it to whatever format you need (e.g., HTML, PDF, DOCX, EPUB).</p>
+            </section>
+            <section class="main-section" id="Why_Use_Markdown?">
+                <h2>Why Use Markdown?</h2>
+                <p>Markdown has some real advantages:
+                    <ul>
+                        <li>It's lightweight.</li>
+                        <li>It's plain text, so it can be written and opened on any device running any operating system.</li>
+                        <li>Converting from Markdown text to particular file formats &mdash; e.g., DOCX, HTML, PDF &mdash; is a simple matter.</li>
+                    </ul>
+                </p>
+                <p>So, if you're someone who frequently writes text that needs to be published to a number of different formats, you'll likely find Markdown incredibly useful. Write your text once, then export it to whatever file formats you need.</p>
+                <p>On the other hand, if you frequently need to create documents with highly complex visual formatting, and you don't often need to output your work to multiple file formats, Markdown may not be the best tool for your purposes.</p>
+            </section>
+            <section class="main-section" id="Is_Markdown_Difficult_to_Learn?">
+                <h2>Is Markdown Difficult to Learn?</h2>
+                <p>Not only is Markdown not difficult to learn, it's really quite simple. In fact, you may find you know a good bit of the syntax already. Have you ever enclosed a word in asterisks in a Facebook post because italics aren't available?</p>
+                <p>That's exactly how you create italics in Markdown. When you write <code class="codetext">*italics*</code> in your Markdown text, it will output as <em>italics</em>.</p>
+            </section>
+            <section class="main-section" id="Creating_Lists_in_Markdown">
+                <h2>Creating Lists in Markdown</h2>
+                <p>Likely you already know how to make lists, too. To create an unordered list that looks like this:
+                    <ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ul>
+                </p>
+                <p>You need only write:</p>
+                <pre><code class="codetext">
+                    * Item 1
+                    * Item 2
+                    * Item 3
+                </code></pre>
+                <p>Ordered lists are just as easy. To get:
+                    <ol>
+                        <li>Item</li>
+                        <li>Item</li>
+                        <li>Item</li>
+                    </ol>
+                </p>
+                <p>Just write:</p>
+                <pre><code class="codetext">
+                    1. Item
+                    2. Item
+                    3. Item
+                </code></pre>
+            </section>
+            <section class="main-section" id="Creating_Links_in_Markdown">
+                <h2>Creating Links in Markdown</h2>
+                <p>Links are easy to create, too. Simply enclose the text you want to be clickable in square brackets, followed immediately by the link in parentheses, like so:</p>
+                <p>
+                    <code class="codetext">[clickable text](URL to load on click)</code>
+                </p>
+            </section>
+            <section class="main-section" id="Styling-Text in Markdown">
+                <h2>Styling Text in Markdown</h2>
+                <p>We already saw one example of how to style text (styling it as italic) <a href="#Is_Markdown_Difficult_to_Learn?">above</a>. Other styling options are also pretty simple. For example, to make text bold, just enclose it in double asterisks: <code class="codetext">**This text is bold.**</code></p>
+                <p>Markdown understands HTML, too, so you could make your link by writing:<code class="codetext">&lta href="URL to load"&gtClickable text&lt/a&gt</code>.</p> 
+                 
+                <p>But links are so easy to create in Markdown that there's no need to use the HTML in that instance. It's included here only as an example.</p>
+            </section>
+            <section class="main-section" id="Code_in_Markdown">
+                <h2>Code in Markdown</h2>
+                <p>Adding code to a markdown document is also fairly simple, and is explained at <a href="https://daringfireball.net/projects/markdown/syntax#precode"><em>Daring Fireball</em></a>.</p>
+                <p>Following the instructions there, it's easy to provide information about this section of the page you're reading: <code class="codetext">&ltsection class="main-section" id="Code_in_Markdown"&gt</code>.</p> 
+            </section>
+        </main>
+    </div>
 </body>
 </html>

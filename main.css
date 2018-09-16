@@ -82,6 +82,11 @@ code {
         width: 100%;
     }
 
+    div.content {
+        height: 600px;
+        overflow-y: scroll;
+    }
+
 }
 
 
